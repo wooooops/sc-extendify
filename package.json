@@ -1,0 +1,23 @@
+{
+  "name": "sc-extendify",
+  "version": "0.0.0",
+  "description": "An inheritance module built on top of John Resig's 'Simple JavaScript inheritance'",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "David Tsuji",
+  "license": "MIT",
+  "devDependencies": {
+    "should": "~3.0.1",
+    "sc-guid": "0.0.x"
+  },
+  "dependencies": {
+    "sc-haskey": "0.0.x",
+    "sc-merge": "0.0.x",
+    "sc-omit": "0.0.x"
+  }
+}
